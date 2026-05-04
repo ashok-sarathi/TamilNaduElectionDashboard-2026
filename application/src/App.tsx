@@ -113,7 +113,7 @@ function App() {
             <div className="poster">
               <section className="hero-band">
                 <div>
-                  <p className="eyebrow">{data.election.state} · {data.election.year}</p>
+                  <p className="eyebrow">{data.election.state} - {data.election.year}</p>
                   <h2>{data.election.title}</h2>
                   <p className="status-text">{data.election.statusText}</p>
                 </div>
@@ -161,7 +161,7 @@ function App() {
                     <div className="seat-card" key={`${seat.name}-${seat.party}`}>
                       <strong>{seat.name}</strong>
                       <span>{seat.candidate}</span>
-                      <em>{seat.party} · {seat.status} by {seat.margin.toLocaleString('en-IN')}</em>
+                      <em>{seat.party} - {seat.status} by {seat.margin.toLocaleString('en-IN')}</em>
                     </div>
                   ))}
                 </div>
