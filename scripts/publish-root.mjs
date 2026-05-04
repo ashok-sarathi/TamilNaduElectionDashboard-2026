@@ -1,4 +1,4 @@
-import { copyFileSync, cpSync, existsSync, mkdirSync, rmSync } from 'node:fs';
+import { copyFileSync, cpSync, existsSync, rmSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -16,3 +16,5 @@ copyFileSync(join(distRoot, 'index.html'), join(projectRoot, 'index.html'));
 if (!existsSync(join(projectRoot, 'output.json'))) {
   copyFileSync(join(projectRoot, 'application', 'public', 'output.json'), join(projectRoot, 'output.json'));
 }
+
+copyFileSync(join(projectRoot, 'output.json'), join(distRoot, 'output.json'));
