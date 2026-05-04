@@ -1,0 +1,29 @@
+{
+  "election": {
+    "title": "Tamil Nadu Assembly Election Results",
+    "state": "Tamil Nadu",
+    "year": "2026",
+    "source": "Sample data model based on ECI trend fields",
+    "lastUpdated": "2026-05-04T09:00:00+05:30",
+    "statusText": "Status known for 234 out of 234 constituencies",
+    "totalSeats": 234
+  },
+  "parties": [
+    { "party": "Dravida Munnetra Kazhagam", "shortName": "DMK", "won": 86, "leading": 22, "color": "#d72638" },
+    { "party": "All India Anna Dravida Munnetra Kazhagam", "shortName": "AIADMK", "won": 51, "leading": 14, "color": "#1f9d55" },
+    { "party": "Indian National Congress", "shortName": "INC", "won": 12, "leading": 5, "color": "#19a7ce" },
+    { "party": "Bharatiya Janata Party", "shortName": "BJP", "won": 6, "leading": 4, "color": "#f97316" },
+    { "party": "Pattali Makkal Katchi", "shortName": "PMK", "won": 4, "leading": 3, "color": "#f2c94c" },
+    { "party": "Viduthalai Chiruthaigal Katchi", "shortName": "VCK", "won": 3, "leading": 2, "color": "#6d28d9" },
+    { "party": "Marumalarchi Dravida Munnetra Kazhagam", "shortName": "MDMK", "won": 2, "leading": 1, "color": "#0f766e" },
+    { "party": "Communist Party of India", "shortName": "CPI", "won": 2, "leading": 0, "color": "#b91c1c" },
+    { "party": "Others", "shortName": "OTH", "won": 7, "leading": 10, "color": "#64748b" }
+  ],
+  "constituencies": [
+    { "name": "Kolathur", "party": "DMK", "candidate": "M. K. Stalin", "status": "Won", "margin": 45218 },
+    { "name": "Edappadi", "party": "AIADMK", "candidate": "Edappadi K. Palaniswami", "status": "Won", "margin": 30142 },
+    { "name": "Coimbatore South", "party": "BJP", "candidate": "Vanathi Srinivasan", "status": "Leading", "margin": 8274 },
+    { "name": "Vilavancode", "party": "INC", "candidate": "Sample Candidate", "status": "Leading", "margin": 6130 },
+    { "name": "Pennagaram", "party": "PMK", "candidate": "Sample Candidate", "status": "Won", "margin": 10241 }
+  ]
+}
