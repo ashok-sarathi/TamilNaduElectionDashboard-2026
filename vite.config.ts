@@ -6,9 +6,9 @@ export default defineConfig({
   base: './',
   plugins: [react()],
   build: {
-    outDir: '../',
+    outDir: '../dist',
     assetsDir: 'assets',
-    emptyOutDir: false,
+    emptyOutDir: true,
     rollupOptions: {
       output: {
         entryFileNames: 'assets/index.js',
